@@ -129,6 +129,11 @@
     cursor: pointer;
 }
 
+.icon-download a {
+    color: var(--branco, #f8f5f5);
+    text-decoration: none;
+}
+
 .icon-download:hover {
     transform: scale(1.2);
 }
