@@ -1,0 +1,297 @@
+.titulo-sobre {
+    color: var(--cinza-claro, #DADADA);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.text-sobre {
+    background: var(--gradiente-boto,
+            linear-gradient(99.03deg,
+                #e81a49 0%,
+                #cb734f 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4rem;
+}
+
+.subtitulo-sobre {
+    color: var(--cinza-claro, #DADADA);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.subtext-sobre {
+    background: var(--gradiente-boto,
+            linear-gradient(99.03deg,
+                #e81a49 0%,
+                #cb734f 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4rem;
+}
+
+.resumo-sobre {
+    color: #DADADA;
+    text-align: justify;
+    line-height: 150%;
+    letter-spacing: -0.01238rem;
+}
+
+.div_resumo_sobre {
+    text-align: justify;
+}
+
+.titulo-nome {
+    color: #FFF;
+}
+
+.titulo-cargo {
+    color: var(--cinza-claro, #DADADA);
+    font-size: 0.75rem;
+}
+
+.img-caio {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 9.3125rem;
+    border: 1px solid var(--cinza, #5A5A5A);
+    background: url(../../Imagens/foto-caio.png) no-repeat;
+    box-shadow: 4px 2px 4px 0px #00000040;
+    object-fit: cover;  
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card-perfil {
+    border-radius: 15px !important;
+    border-style: solid !important;
+    border-color: var(--cinza, #5a5a5a) !important;
+    border-width: 1px !important;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+.card-subtitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem !important;
+}
+
+.descricao-text {
+    color: #FFF;
+}
+
+.subtitulo-text {
+    color: #FFF;
+    font-weight: 700;
+}
+
+.icon-download {
+    color: #FFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.icon-download:hover {
+    transform: scale(1.2);
+}
+
+.btn-contato {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    height: 3rem;
+    margin-top: 1rem;
+    width: 15rem;
+    background: var(--gradiente-boto, linear-gradient(99.03deg, #e81a49 0%, #cb734f 100%));
+    border-radius: 3rem;
+    padding: 0.25rem;
+    box-shadow: 2px 4px 4px 0px #00000040;
+    cursor: pointer;
+}
+
+.btn-contato div {
+    color: var(--branco, #f8f5f5);
+    text-align: center;
+    font: 600 16px/32px "Epilogue", sans-serif;
+}
+
+.btn-contato:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #d40939 0%, #d15e30 100%));
+}
+
+a.redirect {
+    text-decoration: none;
+}
+
+.card-botoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1.5rem 1.5rem;
+    gap: 1rem;
+}
+
+/* for all social containers*/
+.socialContainer {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: 1px solid var(--Cinza-Claro, #DADADA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+/* JavaScript */
+.containerJavaScript:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
+/* Node */
+.containerNode:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
+/* React */
+.containerReact:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
+/* Next */
+.containerNext:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
+/* Nest */
+.containerNest:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
+/* Java */
+.containerJava:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
+/* Bootstrap */
+.containerBootstrap:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
+/* MVC */
+.containerMVC:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
+/* SQL */
+.containerSQL:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
+.titleMVC {
+    color: var(--Cinza-Claro, #DADADA);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+.socialSvg {
+    width: 100rem;
+}
+
+.socialSvg path {
+    fill: #ffffff;
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .row {
+        flex-direction: column-reverse
+    }
+}

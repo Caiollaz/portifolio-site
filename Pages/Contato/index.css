@@ -1,0 +1,269 @@
+.titulo-contato {
+    color: var(--cinza-claro, #DADADA);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.text-contato {
+    background: var(--gradiente-boto,
+            linear-gradient(99.03deg,
+                #e81a49 0%,
+                #cb734f 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4rem;
+}
+
+.resumo-contato {
+    width: 32.4375rem;
+    height: 1.9375rem;
+    flex-shrink: 0;
+    color: #9D9D9D;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.01238rem;
+}
+
+.img-asteroid-pb-contato {
+    position: fixed;
+    right: 0;
+    margin: 0;
+    width: 21rem;
+    height: 42rem;
+    background: url(../../Imagens/asteroid-pb-contato.png) no-repeat;
+    float: right;
+}
+
+.img-asteroid-color-contato {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 17rem;
+    height: 35rem;
+    background: url(../../Imagens/asteroid-color-contato.png) no-repeat;
+}
+
+.titulo-nome {
+    color: #FFF;
+}
+
+.titulo-cargo {
+    color: var(--cinza-claro, #DADADA);
+    font-size: 0.75rem;
+}
+
+.img-caio {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 9.3125rem;
+    border: 1px solid var(--cinza, #5A5A5A);
+    background: url(../../Imagens/foto-caio.png) no-repeat;
+    box-shadow: 4px 2px 4px 0px #00000040;
+}
+
+.inputGroup {
+    margin: 1.5em 0 0 0;
+    position: relative;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+    color: #FFF;
+    font-size: 100%;
+    padding: 1em;
+    outline: none;
+    border: 2px solid #9D9D9D;
+    background-color: transparent;
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+.inputGroup input:focus,
+.inputGroup textarea:focus,
+.inputGroup input:valid,
+.inputGroup textarea:valid {
+    border-color: #9D9D9D;
+}
+
+.inputGroup input:focus~label,
+.inputGroup input:valid~label {
+    transform: translateY(-50%) scale(0.9);
+    background-color: #141414;
+}
+
+.inputGroup textarea:focus~label,
+.inputGroup textarea:valid~label {
+    transform: translateY(-50%) scale(0.9);
+    background-color: #141414;
+}
+
+.inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.3em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: #9D9D9D;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card-perfil {
+    border-radius: 15px !important;
+    border-style: solid !important;
+    border-color: var(--cinza, #5a5a5a) !important;
+    border-width: 1px !important;
+    margin-bottom: 5rem;
+}
+
+.card-botoes {
+    padding: 1.5rem 1.5rem;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+/* for all social containers*/
+.socialContainer {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: #2c2c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+}
+
+/* instagram */
+.containerInstagram:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+}
+
+/* behance */
+.containerBehance:hover {
+    background-color: #1d4292;
+    transition-duration: .3s;
+}
+
+/* behance */
+.containerGithub:hover {
+    background-color: #6e5494;
+    transition-duration: .3s;
+}
+
+/* linkdin */
+.containerLinkdin:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+}
+
+/* whatsapp */
+.containerWhatsapp:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+.socialSvg {
+    width: 17px;
+}
+
+.socialSvg path {
+    fill: #ffffff;
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+}
+
+.card-contato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.btn-enviar {
+    background: var(
+        --gradiente-boto,
+        linear-gradient(99.03deg, #e81a49 0%,#cb734f 100%)
+    );
+    border-radius: 3rem;
+    padding: 0.25rem;
+    position: relative;
+    box-shadow: 2px 4px 4px 0px #00000040;
+    overflow: hidden;
+    cursor: pointer;
+    color: var(--branco, #f8f5f5);
+    text-align: center;
+    font: 600 16px/32px "Epilogue", sans-serif;
+    width: 15rem;
+}
+
+.btn-enviar:hover {
+    background: var(
+        --gradiente-boto,
+        linear-gradient(99.03deg, #d40939 0%, #d15e30 100%)
+    );
+}
+
+@media only screen and (max-width: 1088px) {
+
+    .img-asteroid-pb-contato {
+        display: none;
+        visibility: hidden;
+    }
+
+    .img-asteroid-color-contato {
+        display: none;
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (min-width: 1950px) {
+
+    .titulo-contato,
+    .text-contato {
+        font-size: 3.5rem;
+    }
+
+    .resumo-contato {
+        font-size: 1.5rem;
+    }
+
+}

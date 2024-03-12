@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: var(--background-do-site, #141414);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cabecalho {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+}
+
+.menu li a {
+    color: var(--cinza-claro, #9D9D9D);
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-decoration: none;
+    padding: 6px 12px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: var(--gradiente-boto,
+            linear-gradient(99.03deg,
+                #e81a49 0%,
+                #cb734f 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu li ul {
+    position: absolute;
+    display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+    display: block;
+    border-radius: 0.5rem;
+    border: 1px solid var(--stroke, rgba(0, 0, 0, 0.10));
+    background: var(--preto, #111);
+}
+
+.menu li ul li {
+    display: block;
+    width: 8em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    align-self: stretch;
+}
+
+.icon-downup {
+    margin-left: 0.1em;
+    width: 1.125rem;
+    height: 1.125rem;
+    opacity: 0.5;
+}
+
+.img-asteroid-pb {
+    position: fixed;
+    left: 0;
+    width: 21rem;
+    height: 16rem;
+    flex-shrink: 0;
+    background: url(Imagens/asteroid-pb.png) no-repeat;
+    float: left;
+}
+
+.img-asteroid-color {
+    position: fixed;
+    right: 0;
+    width: 30rem;
+    height: 53rem;
+    flex-shrink: 0;
+    background: url(Imagens/asteroid-color.png) no-repeat;
+    float: right;
+}
+
+.titulo-site {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.div_titulo {
+    margin-top: 9rem;
+}
+
+.titulo {
+    color: var(--branco, #F8F5F5);
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.5rem;
+}
+
+.color-mais {
+    background: var(--gradiente-boto,
+            linear-gradient(99.03deg,
+                #e81a49 0%,
+                #cb734f 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.5rem;
+}
+
+.resumo-site {
+    text-align: justify;
+}
+
+.resumo {
+    color: var(--cinza-claro, #9D9D9D);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.resumo p {
+    font-weight: 500;
+}
+
+.color-name {
+    background: var(--gradiente-boto,
+            linear-gradient(99.03deg,
+                #e81a49 0%,
+                #cb734f 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.btn-contato {
+    color: var(--branco, #F8F5F5);
+    font-size: 0.95rem;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    background: var(--gradiente-boto,
+            linear-gradient(99.03deg,
+                #e81a49 0%,
+                #cb734f 100%));
+}
+
+.btn-contato:hover {
+    color: var(--branco, #F8F5F5);
+    background: var(--gradiente-boto,
+            linear-gradient(99.03deg,
+                #d40939 0%,
+                #d15e30 100%));
+}
+
+.text-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--branco, #F8F5F5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1088px) {
+
+    .img-asteroid-pb {
+        width: 14.4rem;
+        height: 11.5rem;
+        margin-left: -10rem;
+        margin-top: -5rem;
+    }
+
+    .img-asteroid-color {
+        display: none;
+        visibility: hidden;
+    }
+
+    .div_titulo {
+        margin-top: 1rem;
+    }
+
+    .titulo {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+}
+
+@media only screen and (min-width: 1088px) and (max-width: 1700px) {
+    
+    .img-asteroid-color {
+        width: 15rem;
+    }
+
+}
