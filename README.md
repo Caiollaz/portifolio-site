@@ -1,20 +1,28 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Portfólio Site
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Bem-vindo ao repositório do meu site de portfólio! Este site foi desenvolvido para apresentar meus projetos, habilidades e experiências profissionais.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Tecnologias Utilizadas
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+- **Frontend**:
+  - HTML5
+  - CSS3
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Funcionalidades
+
+- **Página Inicial**: Visão geral do portfólio, incluindo uma introdução e links para seções principais.
+- **Sobre Mim**: Informações sobre minha formação, habilidades e experiências profissionais.
+- **Projetos**: Uma galeria de projetos com descrições detalhadas e links para repositórios ou demonstrações ao vivo.
+- **Contato**: Formulário de contato para que os visitantes possam entrar em contato diretamente.
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você tiver alguma sugestão ou encontrar algum bug, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+
+Feito com 💖 por [Caiollaz](https://github.com/Caiollaz)
