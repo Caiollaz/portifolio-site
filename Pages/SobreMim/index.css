@@ -225,6 +225,13 @@ a.redirect {
     transition-duration: .3s;
 }
 
+/* Tailwind CSS */
+.containerTailwind:hover {
+    background: var(--gradiente-boto,
+    linear-gradient(99.03deg, #bc2044 0%, #c45f37 100%));
+    transition-duration: .3s;
+}
+
 /* Nest */
 .containerNest:hover {
     background: var(--gradiente-boto,
